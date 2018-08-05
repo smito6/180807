@@ -1,0 +1,42 @@
+________________________________________________________________________________
+
+Lab: 試用與自訂 Bootstrap 套件
+________________________________________________________________________________
+
+A. 請依據 Lab_Bootstrap\_LabSteps.txt 的說明，練習至步驟 2.9。
+	<Note> 可直接開啟 lab_29.html 進行練習
+
+
+B. 瀏覽器視窗變窄時，畫面會出現「☰」功能表按鈕，請試著將其顏色改為紅色。
+
+
+C. 如果完全沒有頭緒，請 Google: 「bootstrap icon-bar color」。
+
+
+D. 假設有位同學在樣式表附加下列設定，為何「☰」功能表按鈕不會變成紅色?
+
+.icon-bar {
+  background-color: red;
+}
+
+
+E. 請閱讀 http://www.w3.org/TR/css3-selectors/#specificity 有關於
+   Specificity 的說明。
+
+
+F. 上述同學將樣式表改成這樣，「☰」功能表按鈕終於變成紅色，為什麼呢?
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: red;
+}
+
+
+G. 假設班上有另一位同學的解法如下。
+   請討論看看兩種解法的異同優劣。
+
+.icon-bar {
+   background-color:#FF0000 !important;
+}
+
+
+
